@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+body{
+	background-image: url('bgreg.webp');
+}
+
+.content{
+	margin: 30px 30px;
+}
+
+.row{
+	background: white;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.btn1{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	background: black;
+	color: white;
+	border-radius: 4px;
+	font-weight: bolder;
+}
+
+.btn1:hover{
+	background: white;
+	color: black;
+	border: 1px solid;
+}
+
+.link{
+	margin: 10px 30px;
+	font-weight: bolder;
+}
+
+
+ .error{	
+	font-weight: bold;
+	font-size: 12px;
+	color: red;
+}
+
+label,
+input{
+  border: 0;
+  margin-bottom: 3px;
+  display: block;
+  width: 100%;
+}

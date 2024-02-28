@@ -1,0 +1,42 @@
+body{
+      background-image: url(https://images.unsplash.com/photo-1627645812426-67ce7b0a7a81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+}
+
+
+
+.text{
+      text-align: center;
+      margin-top: 9px;
+}
+
+.container{
+      position: absolute;
+}
+
+a svg{
+      width: 30px;
+      height: 35px;
+      background: white;
+      left: 30px;
+      border-radius: 10px;
+      position: absolute;
+}
+
+
+.dropdown select{
+      width: 30%;
+      height: 7%;
+      left: 50px;
+      border: 0;
+      margin: auto;
+      outline: none;
+      font-size: 25px;
+      border-radius: 10px;
+      position: relative;
+}
+
+.dropdown select option{
+      font-size: 25px;
+}
+
+

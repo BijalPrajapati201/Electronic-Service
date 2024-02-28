@@ -1,0 +1,60 @@
+body{
+    background-image: url(bg5.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    margin: 100px 30px;
+}
+
+.info{
+    color: white;
+    font-size: 50;
+    transform: translateX(20%);
+    opacity: 0;
+    animation: comeinright 0.5s ease forwards;
+}
+
+@keyframes comeinright {
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+    width: 480px;
+    transform: translateX(-110%);
+    animation: comeinleft 0.5s ease forwards;
+}
+
+@keyframes comeinleft {
+    to{
+        transform: translateX(0);
+    }
+    
+}
+
+.select{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    position: relative;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.select:hover{
+    background-color: rgb(81, 174, 210);
+    color: white;
+}
+
+

@@ -1,0 +1,56 @@
+
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+body{
+	/* background: rgb(37, 36, 36); */
+    background-image: url('bgreg.webp');
+}
+
+.row{
+	background: white;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.btn1{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 67%;
+	background: black;
+	color: white;
+	border-radius: 4px;
+	font-weight: bolder;
+}
+
+.btn1:hover{
+	background: white;
+	color: black;
+	border: 1px solid;
+}
+
+.content {
+    margin: 30px 30px;
+}
+
+label.error{
+    color: red !important;
+    font-weight: bolder;
+}
+
+.message{
+	padding: 17px 8px;
+	background-color: black;
+	color: white;
+}
